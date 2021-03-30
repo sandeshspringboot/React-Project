@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Json Reader</title>
+    </head>
+    <body>
+        <script>
+            fetch("jsonfile.json")
+            .then(response=>response.json)
+            .then(data=>{
+                console.log(data.languageName)
+            })
+            
+        </script>
+    </body>
+</html>

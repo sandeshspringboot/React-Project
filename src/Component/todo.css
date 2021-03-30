@@ -1,0 +1,12 @@
+.div1{
+    width: 100px;
+    margin: left;
+    border: 3px solid #73AD21;
+    
+  }
+  
+.div2 {
+    max-width: 100px;
+    margin: right;
+    border: 3px solid #73AD21;
+  }
